@@ -1,0 +1,191 @@
+body
+{
+	font: 16pt sans-serif; 
+	color: #A0A0A0;
+	background: black url(/images/indexBackground.png) repeat top right;
+	text-decoration: none;
+}
+
+h1
+{
+	font: 2em sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+h2
+{
+	font: 1.8em sans-serif ;
+	color: #E0E0E0;
+	text-align: center;
+	text-decoration: none;
+}
+
+h3
+{
+	font: 1.6em sans-serif; 
+	color: #D0D0D0;
+	text-align: center;
+	text-decoration: none;
+}
+
+h4
+{
+	font: 1.4em sans-serif; 
+	color: #C0C0C0;
+	text-align: center;
+	text-decoration: none;
+}
+
+h5
+{
+	font: 1.2em sans-serif; 
+	color: #B0B0B0;
+	text-align: center;
+	text-decoration: none;
+}
+
+ul
+{
+	/*font: 16pt sans-serif;*/ 
+	/*color: white;*/
+	text-align: left;
+	text-decoration: none;
+}
+
+li
+{
+	/*font: 16pt sans-serif;*/ 
+	/*color: white;*/
+	text-align: left;
+	text-decoration: none;
+}
+
+a
+{
+	/*font: 12pt sans-serif;*/ 
+	color: #A0A0A0;
+	text-align: center;
+	text-decoration: none;
+}
+
+th
+{
+	/*font: 16pt sans-serif;*/
+	background-color: blue; 
+	color: #CCCCCC;
+	text-align: center;
+	font-style: bold;
+	text-decoration: none;
+}
+
+td
+{
+	/*font: 16pt sans-serif;*/ 
+	background-color: blue; 
+	/*color: #CCCCCC;*/
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+dl
+{
+	font: 1em sans-serif; 
+	/*color: #CCCCCC;*/
+	text-align: left;
+	text-decoration: none;
+}
+
+dt
+{
+	font: 1em sans-serif; 
+	color: #BFBFBF;
+	text-align: left;
+	text-decoration: none;
+}
+
+dd
+{
+	font: 0.8em sans-serif; 
+	/*color: #CCCCCC;*/
+	text-align: left;
+	text-decoration: none;
+}
+
+p
+{
+	font: 16pt sans-serif; 
+	/*color: #999999;*/
+	text-align: left;
+	text-decoration: none;
+}
+
+strong
+{
+	color: #BFBFBF;
+}
+
+img
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+.code
+{
+	font: 1em courier; 
+	color: white;
+	text-decoration: none;
+	text-align: left;
+}
+
+table.code
+{
+	font: 1em courier; 
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.example
+{
+	font: 1em sans-serif; 
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.show
+{
+	display: none;
+}
+.hide:focus + .show
+{
+	display: inline;
+}
+.hide:focus
+{
+	display: none;
+}
+.hide:focus ~ #list
+{
+	display:none;
+}
+@media print
+{
+	ol.hide,
+	ol.show
+	{
+		display: none;
+	}
+}
